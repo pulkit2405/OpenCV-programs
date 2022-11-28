@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 haar_cascade = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-img = cv.imread('Images/photo.jpg')
+img = cv.imread('photo.jpg')
 #img = cv.resize(img, (500,250))
 cv.imshow('person', img)
 
